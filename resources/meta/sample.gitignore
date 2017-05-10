@@ -1,9 +1,3 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

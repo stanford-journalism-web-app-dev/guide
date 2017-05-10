@@ -1,0 +1,30 @@
+title: Stanford Journalism
+email: dun@stanford.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Stuff about building things in news apps
+
+
+url: https://stanford-journalism-web-app-dev.github.io
+baseurl: /guide
+twitter_username: stanfordjourn
+github_username:  stanford-journalism-web-app-dev
+
+# Build settings
+markdown: kramdown
+theme: null
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
+timezone: America/Los Angeles
+
+
+defaults:
+    -
+      scope:
+        path: ""
+      values:
+        layout: "default"
